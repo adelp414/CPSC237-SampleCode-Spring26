@@ -59,6 +59,22 @@ public class Assignment1 {
     return RANKS[id % 13] + SUITS[id / 13];
   } // end getCardString
 
+  private static void displayWelcomeMessage(String input) {
+    System.out.printf("Welcome to Aspen's casino! Let's play Five Card Draw Poker", input);
+  } // end displayWelcomeMessage
+
+  private static void displayMenu() {
+
+  } // end displayMenu
+
+  private static void displayHand() {
+
+  } // end displayHand
+
+  private static void displayResult() {
+
+  } // end displayResult
+
   public static void parseCmdLineArgs(String[] args, int[] player, int[] dealer) {
 
     if (player == null || dealer == null)
